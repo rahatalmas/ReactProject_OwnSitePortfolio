@@ -1,0 +1,40 @@
+.about-container{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.about-m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-card{
+    width: 25%;
+    margin-right: 10px;
+}
+.about-tab{
+    width: 75%;
+    background-image: url("5391074.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin:0 auto;
+    text-align: justify;
+}
+.about{
+    padding: 100px;
+}
+@media screen and (max-width:580px) {
+    .about-m{
+        flex-direction: column;
+    }
+    .about-card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about-tab{
+        width: 100%;
+    }
+}

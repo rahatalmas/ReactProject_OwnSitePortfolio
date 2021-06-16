@@ -1,0 +1,52 @@
+.home-container{
+    overflow: hidden;
+    box-sizing: border-box;
+    padding:0;
+}
+.home-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro{
+    background-image: url("5391012.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 75%;
+    height: 85vh;
+    padding: 25px;
+    margin: 0;
+}
+.paragraph{
+    font-size: 1rem;
+    color: rgb(17, 18, 66);
+    letter-spacing: 2px;
+    padding: 100px;
+}
+.span{
+    font-size: 2rem;
+    color: rgb(122, 43, 43);
+}
+.home-card{
+    width: 25%;
+    box-sizing: border-box;
+    padding:0 0 0  15px;
+}
+.c-text{
+    padding:0 10px;
+}
+
+@media screen and (max-width: 580px) {
+    .home-main{
+        flex-direction: column;
+    }
+    .intro{
+        width: 100%;
+    }
+    .home-card{
+        width: 100%;
+        padding: 10px 0;
+    }
+}
