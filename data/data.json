@@ -1,0 +1,19 @@
+{
+    "Blogs":[
+        {
+            "title":"parrots",
+            "snippet":"food routine of Pattots",
+            "body":"sometext........"
+        },
+        {
+            "title":"life",
+            "snippet":"meaning of life ?",
+            "body":"life is an adventurus journey"
+        },
+        {
+            "title":"something..",
+            "snippet":"some text...",
+            "body":"some text..."
+        }
+    ]
+}
